@@ -1,0 +1,214 @@
+/* General Body Styles */
+body {
+    font-family: 'Baloo 2', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    height: 100%;
+}
+
+/* Header Styles */
+header {
+    background-color: #ff7fa1;
+    padding: 10px 20px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Programming Languages Section */
+.programming {
+    margin: 40px auto;
+    text-align: center;
+}
+
+.programming h3 {
+    color: #ff6f90;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.languages-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.languages-box ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.languages-box ul li {
+    background-color: #ff7fa1;
+    padding: 8px 15px;
+    border-radius: 25px;
+    color: white;
+    font-weight: 600;
+}
+
+/* Frameworks Section */
+.frameworks {
+    margin: 40px auto;
+    text-align: center;
+}
+
+.frameworks h3 {
+    color: #ff6f90;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.frameworks-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.frameworks-box ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.frameworks-box ul li {
+    background-color: #ff6f90;
+    padding: 8px 15px;
+    border-radius: 25px;
+    color: white;
+    font-weight: 600;
+}
+
+/* Skills Section */
+.skills {
+    margin: 40px auto;
+    text-align: center;
+}
+
+.skills h2 {
+    color: #ff6f90;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.skill-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.skill-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.skill {
+    margin: 15px 0;
+}
+
+.skill h3 {
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.skill-bar {
+    height: 20px;
+    background-color: #ff7fa1;
+    border-radius: 10px;
+    transition: width 0.5s ease;
+}
+
+.skill:hover .skill-bar {
+    background-color: #ff6f90;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Projects Section */
+.projects {
+    margin: 40px auto;
+    text-align: center;
+}
+
+.projects h2 {
+    color: #ff6f90;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.project-list {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    width: 250px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    color: #ff6f90;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #ff7fa1; 
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+footer p {
+    margin: 0;
+}
+footer a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}

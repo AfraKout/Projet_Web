@@ -1,0 +1,104 @@
+body {
+    font-family: 'Baloo 2', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #ff7fa1;
+    padding: 10px 20px;
+}
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    padding: 40px 40px;
+}
+
+.contact-section {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-section h2 {
+    color: #ff7fa1;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.contact-form label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #ff7fa1;
+    outline: none;
+}
+
+.contact-form button {
+    background-color: #ff7fa1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #ff5f88;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #ff7fa1; 
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+footer p {
+    margin: 0;
+}
+footer a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}

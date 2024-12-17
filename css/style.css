@@ -1,0 +1,113 @@
+body {
+    font-family: 'Baloo 2', cursive;  
+    margin: 0;
+    padding: 0;
+    background-color: #ffeef5; 
+    color: #333;
+    height: 100%; 
+}
+
+/* Header Styles */
+header {
+    background-color: #ff7fa1; 
+    padding: 10px 20px;
+}
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    text-align: center;
+}
+h1 {
+    font-size: 3rem;
+    color: #ff7fa1; 
+    margin-bottom: 20px;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px; 
+    background-color: white; 
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px; 
+}
+
+.hero-content {
+    text-align: center; 
+}
+
+.profile-picture {
+    margin-top: 20px; 
+}
+
+.profile-picture img {
+    width: 150px; 
+    height: auto;
+    border-radius: 50%; 
+    border: 3px solid #ff7fa1; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease; 
+}
+
+.profile-picture img:hover {
+    transform: scale(1.1); /* Scale up on hover */
+}
+.facts-about-me {
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    text-align: left;
+}
+
+.facts-about-me h3 {
+    text-align: center;
+    font-size: 2rem;
+    color: #ff7fa1;
+    margin-bottom: 20px;
+}
+
+.facts-about-me ul {
+    list-style: none;
+    padding: 0;
+}
+
+.facts-about-me ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    color: #555; 
+}
+
+/* Footer Styles */
+footer {
+    background-color: #ff7fa1; 
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+footer p {
+    margin: 0;
+}
+footer a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
